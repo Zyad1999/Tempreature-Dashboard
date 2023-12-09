@@ -1,0 +1,18 @@
+<!-- device-detail.component.html -->
+<div class="table-container">
+  <h2>Device {{ deviceId }} Details</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Timestamp</th>
+        <th>Temperature</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let entry of deviceHistory">
+        <td>{{ entry.timestamp }}</td>
+        <td>{{ entry.temperature }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

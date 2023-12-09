@@ -1,0 +1,14 @@
+<div>
+  <h1>Tempreature Dashboard</h1>
+  <app-send-update/>
+  <app-device-list
+    [devices]="devices"
+    [showDeviceDetail]="showDeviceDetail">
+  </app-device-list>
+
+  <app-device-detail
+    *ngIf="selectedDevice"
+    [deviceHistory]="selectedDevice.history"
+    [deviceId]="selectedDevice.id">
+  </app-device-detail>
+</div>

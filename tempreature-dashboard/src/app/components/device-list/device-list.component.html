@@ -1,0 +1,17 @@
+<div>
+  <h2>Device List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Device ID</th>
+        <th>Temperature</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let device of devices" (click)="showDeviceDetail(device)">
+        <td>{{ device.id }}</td>
+        <td>{{ device.temperature }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,7 @@
+<div class="send-update">
+    <input type="text" [(ngModel)]="textInput" placeholder="Enter hex update">
+    <button (click)="sendPostRequest()">Send Update</button>
+    <div class="error-message" *ngIf="!isValid">
+        Invalid input. Please enter a valid text starting with 0x and with a length multiple of 10.
+    </div>
+</div>

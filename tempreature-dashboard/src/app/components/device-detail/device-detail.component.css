@@ -1,0 +1,27 @@
+h2 {
+  color: #333; /* Set your desired heading color */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  min-width: 600px;
+}
+
+th, td {
+  border: 2px solid #2196f3;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #2196f3;
+  color: white;
+}
+
+tr:hover {
+  background-color: #e1f5fe;
+  cursor: pointer;
+}
