@@ -6,9 +6,9 @@ This repository contains a full-stack application for monitoring and managing te
 
 ## Tech Stack
 
-**Client:** Spring Boot, MongoDB, RabbitMQ
+**Server:** Spring Boot, MongoDB, RabbitMQ
 
-**Server:** Angular, WebSocket
+**Client:** Angular, WebSocket
 
 
 ## Application Overview
@@ -28,7 +28,7 @@ The application consists of two main parts:
 Clone Github
 
 ```bash
-  git clone https://github.com/your-username/temperature-dashboard-api.git
+  git clone https://github.com/Zyad1999/Tempreature-Dashboard
 ```
 Install RabbitMQ Container
 
